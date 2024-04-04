@@ -1,0 +1,803 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    background-color: lightgray;
+}
+#img_container{
+    width: 70px;
+    height: 70px;
+    border: 13px solid gray;
+    border-radius: 50%;
+    position: absolute;
+    top: 45%;
+    right: 45%;
+    border-top-color: darkgrey;
+    border-bottom-color: darkgrey;
+    animation: rot 3s infinite;
+
+}
+.zani{
+    width: 50px;
+    height: 50px;
+    border-radius: 50%;
+    position: absolute;
+    top: 46.9%;
+    right: 46%;
+    animation: rot 3s infinite;
+
+}
+#holder{
+    display: none;
+}
+@keyframes rotate {
+    100%{
+        transform: rotate(360deg);
+    } 
+}
+@keyframes rot {
+    100%{
+        transform: rotate(-360deg);
+    }
+}
+
+.icon-bar {
+    width: 100%;
+    background-color:black;
+    color: white;
+    overflow: auto;
+
+}
+
+.icon-bar a {
+    float: left;
+    width: 20%;
+    text-align: center;
+    padding: 12px 0;
+    transition: all 0.3s ease;
+    color: white;
+    font-size: 30px;
+}
+
+.icon-bar a:hover {
+    background-color:#555;
+}
+
+.active {
+    background-color: darkslategray;
+}
+.intro{
+    text-align: center;
+    margin-top: 100px;
+}
+.intro h1{
+ font-size: 80px;
+ font-family: Helvetica;
+}
+.intro p{
+    margin-top: 10px;
+    font-size: 30px;
+}
+.intro span{
+    background-color: black;
+    color: white;
+    font-family: 'Times New Roman';
+}
+.intro-1{
+    margin-top: 20px;
+    background-image: url(Jenny.jpg);
+    background-size:cover;
+    background-repeat: no-repeat;
+    width: 100%;
+    height: 900px;
+    
+}
+.inside{
+    padding-top: 100px;
+padding-left: 30px;
+font-size: 90px;
+}
+.container-1{
+    padding-left: 20px;
+    margin-top: 400px;
+}
+.position-1{
+    position:fixed;
+    left: 0;
+    top: 0;
+    z-index: 3;
+    width: 100%;
+    height: 100%;
+    overflow: auto;
+    display: none;
+}
+.Menu-container{
+    width: 900px;
+    margin: auto;
+}
+.cont-menu{
+    margin-top: 80px;
+    background-color:#474242;
+    position: relative;
+    z-index: 3;
+    animation: zoom 0.6s;
+}
+.cont p{
+    font-size: larger;
+    padding-left: 10px;
+    background-color: #474242;
+    color: #000;
+}
+.close-button{
+    position: absolute;
+    top: 0;
+    right: 0;
+    padding: 10px;
+}
+
+.close-button:hover{
+    background-color: #474242;
+}
+.dark{
+    background-color:#474242;
+    color: #fff;
+}
+.dark h1{
+    padding: 10px;
+}
+#area{
+    width: 70%;
+    height: 50px;
+}
+
+.dark input{
+        padding: 15px;   
+         width: 100%;
+        border: 1px solid #ccc !important;
+    
+}
+.ja-sub{
+background-color: tomato;
+color: #000;
+margin-left: 30px;
+margin-top: 10px;
+margin-bottom: 30px;
+    border: none;
+    width: 30%;
+    height: 40px;
+    text-align: center;
+}
+.ja-sub:hover{
+    background-color: #ccc;
+    padding: 8px 16px;
+}
+@keyframes zoom {
+    0%{
+        transform: scale(0);
+    }
+    100%{
+        transform: scale(1);
+    }
+}
+
+.btt{
+    background-color:blue;
+    color: black;
+    width: 150px;
+    height: 40px;
+    border: none;
+    margin-left: 20px;
+}
+.button{
+    width:170px;
+    height: 50px;
+    margin-left: 20px;
+    color: #000;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-size: 20px;
+    background-color:#474242;
+    border: none;
+}
+#area{
+    margin-left: 20px;
+    width: 70%;
+    height: 50px;
+}
+.grid-main{
+    display: grid;
+    grid-template-columns: auto auto;
+    gap: 10px;
+    margin-top: 30px;
+    margin-left: 10px;
+}
+.grid-main h3{
+    padding-top: 15px;
+}
+.hat{
+    margin-top: 20px;
+    background-color: white;
+}
+.l-side h3{
+    text-align: center;
+    font-size: 40px;
+}
+.l-side p{
+font-size: 24px;
+}
+.l-side-text{
+    width: 80%;
+    margin-left: 10px;
+}
+.runway img{
+    width: 80%;
+    height: 500px;
+    margin-left: 50px;
+}
+.shirt img{
+    width: 80%;
+    height: 450px;
+}
+.shirt{
+    margin-top: 40px;
+    background-color: white;
+}
+.runway{
+    background-color: white;
+    margin-top: 40px;
+}
+.hat img{
+    width: 80%;
+    height: 500px;
+    margin-left: 50px;
+}
+.comment img{
+    width: 50px;
+    height: 50px;
+    border-radius: 90px;
+}
+.accordion{
+    width: 100px;
+    height: 40px;
+    background-color: gray;
+    color: #000;
+    border: none;
+    font-size: larger;
+}
+
+.title{
+    text-align: center;
+    margin-bottom: 10px;
+}
+.star .fa{
+ color: gold;
+}
+
+  .bottom-left {
+    position: absolute;
+    bottom: 8px;
+    left: 16px;
+
+  }
+  .footer{
+    padding-top: 20px;
+    margin-top: 30px;
+    background-color:#474242 ;
+    color: white;
+    height: 200px;
+    text-align: center;
+}
+.footer img{
+    width: 50px;
+    height: 50px;
+}
+.footer:hover{
+    background-color: black;
+
+}
+.myself {
+    position: relative;
+    text-align: center;
+    color:white;
+    margin-top: 25px;
+  }
+  .myself img{
+    width: 500px;
+   height: 400px;
+}
+.ad{
+    width: 499px;
+    height: 400px;
+    background-color:azure;
+}
+.ad-header{
+    background-color: #000;
+    color:white ;
+    text-transform: capitalize;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-size:60px;
+    height: 70px;
+    padding-left: 20px;
+
+}
+.ad-body{
+    text-align: center;
+    padding-top: 150px;
+}
+.contact{
+    width: 490px;
+    margin-top: 30px;
+    background-color: white;
+}
+.contact-header{
+    background-color: #000;
+    color:white ;
+    text-transform: capitalize;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-size:50px;
+    height: 70px;
+    padding-left: 20px;
+
+}
+.contact input{
+    margin-top: 10px;
+    width: 300px;
+    height: 40px;
+    margin-left: 6px;
+}
+.contact button{
+    margin-top: 10px;
+    width: 150px;
+    height: 30px;
+    margin-left: 10px;
+    background-color: #555;
+    color: #000;
+    border: none;
+    margin-bottom: 20px;
+}  
+.tag{
+    width: 500px;
+    gap: 20px;
+    background-color: white;
+    height: 140px;
+}
+.tag-header{
+    background-color: #000;
+    color:white ;
+    text-transform: capitalize;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-size:60px;
+    height: 70px;
+    padding-left: 20px;
+    margin-top: 20px;
+    margin-bottom: 10px;
+}
+.tag p{
+    background-color: #555;
+    font-size: larger;
+    color: white;
+    width: fit-content;
+    height: 30px;
+    display: inline;
+    gap: 10px;
+
+}
+.follow{
+    width: 500px;
+    background-color: white;
+    height: fit-content;
+}
+.fow-header{
+    background-color: #000;
+    color:white ;
+    text-transform: capitalize;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-size:50px;
+    height: 60px;
+    padding-left: 20px;
+    margin-top: 20px;
+    margin-bottom: 10px;
+}
+.follow i{
+    font-size: 80px;
+    padding-left: 10px;
+    margin-bottom: 30px;
+}
+.follow i:hover{
+    background-color: #474242;
+    color: white;
+}
+.sub{
+    margin-top: 40px;
+    width: 500px;
+    background-color: white;
+}
+.sub-header{
+    background-color: #000;
+    color:white ;
+    text-transform: capitalize;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-size:50px;
+    height: 60px;
+    padding-left: 20px;
+    margin-top: 20px;
+    margin-bottom: 10px;
+}
+.sub p{
+    font-size: larger;
+padding-left: 10px;
+font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+.sub input{
+    margin-top: 10px;
+    width: 300px;
+    height: 40px;
+    margin-left: 6px;
+}
+.sub button{
+    background-color: red;
+    color: #000;
+    margin-top: 10px;
+    width: 150px;
+    height: 30px;
+    margin-left: 10px;
+    border: none;
+    margin-bottom: 40px;
+
+}
+
+
+
+
+
+
+@media screen and (max-width: 600px){
+.icon-bar a {
+    float: left;
+    width: 20%;
+    text-align: center;
+    padding: 12px 0;
+    transition: all 0.3s ease;
+    color: white;
+    font-size: 16px;
+}
+
+    .intro{
+        text-align: center;
+        margin-top: 40px;
+    }
+    .intro h1{
+     font-size: 30px;
+     font-family: Helvetica;
+    } 
+    
+.intro-1{
+    margin-top: 20px;
+    background-image: url(Jenny.jpg);
+    background-size:cover;
+    background-repeat: no-repeat;
+    width: 100%;
+    height: 400px;
+    
+}
+    
+    .inside{
+        padding-top: 70px;
+    padding-left: 10px;
+    font-size: 30px;
+    }
+    .container-1{
+        padding-left: 5px;
+        margin-top: 150px;
+    }
+
+
+.position-1{
+    position: fixed;
+    left: 0;
+    top: 0;
+    z-index: 3;
+    width: 100%;
+    height: 100%;
+    overflow: auto;
+    display: none;
+}
+.Menu-container{
+    width: 300px;
+    margin: auto;
+}
+.cont-menu{
+    margin-top: 80px;
+    background-color:#474242;
+    position: relative;
+    z-index: 3;
+    animation: zoom 0.6s;
+}
+.cont p{
+    background-color: #474242;
+    color: #000;
+    font-size: medium;
+}
+.close-button{
+    position: absolute;
+    top: 0;
+    right: 0;
+    padding: 10px;
+}
+
+.close-button:hover{
+    background-color: #474242;
+}
+.dark{
+    background-color:#474242;
+    color: #fff;
+}
+.dark h1{
+    padding: 10px;
+}
+
+.dark input{
+
+    padding: 15px;
+    width: 100%;
+    border: 1px solid #ccc !important;
+}
+.ja-sub{
+background-color: tomato;
+color: #000;
+margin-left: 30px;
+margin-top: 10px;
+margin-bottom: 30px;
+    border: none;
+    width: 30%;
+    height: 40px;
+    text-align: center;
+}
+.ja-sub:hover{
+    background-color: #ccc;
+    padding: 8px 16px;
+}
+.grid-main{
+    display: grid;
+    grid-template-columns: auto ;
+    margin-top: 20px;
+    margin-left: 10px;
+}
+.grid-main h3{
+    padding-top: 10px;
+}
+.hat{
+    margin-top: 20px;
+    background-color: white;
+}
+.l-side h3{
+    text-align: center;
+    font-size: 30px;
+}
+.l-side p{
+font-size: 24px;
+}
+.l-side-text{
+    font-size: large;
+    width: 80%;
+    margin-left: 10px;
+}
+.runway img{
+    width: 80%;
+    height: 300px;
+    margin-left: 10px;
+}
+.shirt img{
+    width: 80%;
+    height: 250px;
+}
+.shirt{
+    margin-top: 40px;
+    background-color: white;
+}
+.runway{
+    background-color: white;
+    margin-top: 40px;
+}
+.hat img{
+    width: 80%;
+    height: 300px;
+    margin-left: 10px;
+}
+.comment img{
+    width: 50px;
+    height: 50px;
+    border-radius: 90px;
+}
+.accordion{
+    width: 100px;
+    height: 40px;
+    background-color: gray;
+    color: #000;
+    border: none;
+    font-size: larger;
+}
+
+.title{
+    text-align: center;
+    margin-bottom: 10px;
+}
+.star .fa{
+ color: gold;
+}
+
+  .bottom-left {
+    position: absolute;
+    bottom: 8px;
+    left: 8px;
+
+
+  }
+  .footer{
+    padding-top: 20px;
+    margin-top: 30px;
+    background-color:#474242 ;
+    color: white;
+    height: 200px;
+    text-align: center;
+}
+.footer img{
+    width: 50px;
+    height: 50px;
+}
+.footer:hover{
+    background-color: black;
+
+}
+.myself {
+    position: relative;
+    text-align: center;
+    color:white;
+    margin-top: 25px;
+  }
+  
+  .myself img{
+    width: 400px;
+   height: 300px;
+}
+.ad{
+    width: 400px;
+    height: 200px;
+    background-color:azure;
+}
+.ad-header{
+    background-color: #000;
+    color:white ;
+    text-transform: capitalize;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-size:40px;
+    height: 40px;
+    padding-left: 20px;
+
+}
+.ad-body{
+    text-align: center;
+    padding-top: 70px;
+}
+.contact{
+    width: 400px;
+    margin-top: 30px;
+    background-color: white;
+}
+.contact-header{
+    background-color: #000;
+    color:white ;
+    text-transform: capitalize;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-size:40px;
+    height: 40px;
+    padding-left: 20px;
+
+}
+.contact input{
+    margin-top: 10px;
+    width: 300px;
+    height: 40px;
+    margin-left: 6px;
+}
+.contact button{
+    margin-top: 10px;
+    width: 150px;
+    height: 30px;
+    margin-left: 10px;
+    background-color: #555;
+    color: #000;
+    border: none;
+    margin-bottom: 20px;
+}  
+.tag{
+    width: 400px;
+    gap: 20px;
+    background-color: white;
+    height: 140px;
+}
+.tag-header{
+    background-color: #000;
+    color:white ;
+    text-transform: capitalize;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-size:38px;
+    height: 42px;
+    padding-left: 20px;
+    margin-top: 20px;
+    margin-bottom: 10px;
+}
+.tag p{
+    background-color: #555;
+    font-size: larger;
+    color: white;
+    width: fit-content;
+    height: 30px;
+    display: inline;
+    gap: 20px;
+
+}
+.follow{
+    width: 400px;
+    background-color: white;
+    height: fit-content;
+}
+.fow-header{
+    background-color: #000;
+    color:white ;
+    text-transform: capitalize;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-size:40px;
+    height: 40px;
+    padding-left: 20px;
+    margin-top: 20px;
+    margin-bottom: 10px;
+}
+.follow i{
+    font-size: 40px;
+    padding-left: 10px;
+    margin-bottom: 30px;
+}
+
+.sub{
+    margin-top: 40px;
+    width: 400px;
+    background-color: white;
+}
+.sub-header{
+    background-color: #000;
+    color:white ;
+    text-transform: capitalize;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-size:40px;
+    height: 40px;
+    padding-left: 20px;
+    margin-top: 20px;
+    margin-bottom: 10px;
+}
+.sub p{
+    font-size: larger;
+padding-left: 10px;
+
+}
+.sub input{
+    margin-top: 10px;
+    width: 300px;
+    height: 40px;
+    margin-left: 6px;
+}
+.sub button{
+    background-color: red;
+    color: #000;
+    margin-top: 10px;
+    width: 150px;
+    height: 30px;
+    margin-left: 10px;
+    border: none;
+    margin-bottom: 40px;
+
+}
+
+}
+

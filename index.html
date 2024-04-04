@@ -1,0 +1,230 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Jenny's Brand</title>
+    <link rel="stylesheet" href="Font Awesome/css/all.css">
+    <link rel="stylesheet" href="font-awesome/css/font-awesome.css">
+    <link rel="stylesheet" href="font-awesome/css/font-awesome.min.css">
+    <link rel="stylesheet" href="janeblog.css">
+</head>
+
+<body onload="run()">
+    <div id="img_container"></div>
+    <div id="img_holder">
+
+        <img class="zani" src="zani.png" alt="">
+    </div>
+    <div id="holder">
+
+        <div class="icon-bar">
+            <a class="active" href="#"><i class="fa fa-home"></i></a>
+            <a href="#"><i class="fa fa-facebook"></i></a>
+            <a href="#"><i class="fa fa-envelope"></i></a>
+            <a href="#"><i class="fa fa-whatsapp"></i></a>
+            <a href="#"><i class="fa fa-search"></i></a>
+        </div>
+        <div class="intro">
+            <h1>Jenny's Blog</h1>
+            <p>Welcome to the blog of <span>Jenny's world</span> <br>
+                All designs are made possible
+            </p>
+        </div>
+
+
+        <div class="intro-1">
+            <div class="inside">
+                <p>Jenny's <br>
+                <h1>Fashion Blog</h1>
+                </p>
+
+            </div>
+            <div class="background">
+                <div class="container-1">
+                    <div>
+                        <p><button class="button" onclick="openMenu()" id="btnmenu">Subscribe</button></p>
+                    </div>
+                </div>
+                <div class="position-1" id="Menu">
+                    <div class="Menu-container">
+                        <div class="cont-menu">
+                            <div class="dark">
+                                <span class="close-button" onclick="closemenu()">x</span>
+                                <h1>Subscribe</h1>
+                            </div>
+                            <div class="cont">
+                                <p> Join my mailing list to receive updates on the latest blog and other things</p>
+                            </div>
+                            <div class="dark">
+                                <form action="">
+                                    <input type="email" placeholder=" Enter email " required>
+                                </form>
+                            </div>
+                            <div>
+                                <button class="ja-sub">Subscribe</button>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="grid-main">
+            <div class="l-side">
+                <div class="hat">
+                    <h3>Title heading</h3>
+                    <p class="title">Title discription ,
+                        <b style="opacity: 0.7;">April 2nd 2024 </b>
+                    </p>
+                    <img src="Hat.jpg" alt=""> <br>
+                    <p class="l-side-text"><b> More Hats !!</b> Enjoy the season with ankara hat Lorem ipsum dolor sit,
+                        amet
+                        consectetur
+                        adipisicing elit. Cum ex odio ratione atque.
+                        Lorem ipsum dolor sit amet consectetur, adipisicing elit. Reprehenderit officiis aliquid
+                        voluptatum
+                        quidem
+                        deleniti quibusdam cumque blanditiis consectetur perferendis, magnam veritatis saepe nulla
+                        beatae
+                        ea!
+                        Accusamus voluptatibus laborum voluptatem voluptas!A
+                        met nisi sapiente voluptas asperiores quia voluptatum nihil?
+                        Quaerat sed esse voluptatibus cum corporis quo, maiores cupiditate?</p> <br> <br>
+                    <p class="star">
+                        Rate our work ..
+                        <i class="far fa-star" onclick="favorite(this)"></i>
+                        <i class="far fa-star" onclick="favorite(this)"></i>
+                        <i class="far fa-star" onclick="favorite(this)"></i>
+                        <i class="far fa-star" onclick="favorite(this)"></i><br>
+                    </p>
+                    <button class="accordion">Comment</button>
+                    <div class="panel">
+                        <p class="comment"> <img
+                                src="file:///C:/Users/GOI/Documents/W3SCHOOL/W3Schools-2021-09-19/W3Schools-2021-09-19/howto/img_avatar2.png"
+                                alt="">cindy :<br> Soo intersting</p>
+                    </div>
+                </div>
+
+                <div class="shirt">
+                    <h3>Title heading</h3>
+                    <p class="title">Title discription ,
+                        <b style="opacity: 0.7;">March 28th 2024 </b>
+                    </p>
+                    <img src="Men shirt .jpg" alt=""> <br>
+                    <p class="l-side-text"><b>Classic shirts </b> Jenny also deal on mens ankara wears Lorem ipsum dolor
+                        sit, amet
+                        consectetur Lorem ipsum dolor sit amet consectetur adipisicing elit. Laboriosam consequatur
+                        itaque
+                        accusantium
+                        esse fuga quos omnis. Ipsam, est, ad pariatur, ipsa ducimus delectus quos accusamus nostrum cu
+                        piditate reiciendis magni temporibus!
+                        adipisicing elit. Cum ex odio ratione atque.
+                        Amet nisi sapiente voluptas asperiores quia voluptatum nihil?
+                        Quaerat sed esse voluptatibus cum corporis quo, maiores cupiditate?</p> <br> <br>
+                    <p class="star">
+                        Rate our work ..
+                        <i class="far fa-star" onclick="favorite(this)"></i>
+                        <i class="far fa-star" onclick="favorite(this)"></i>
+                        <i class="far fa-star" onclick="favorite(this)"></i>
+                        <i class="far fa-star" onclick="favorite(this)"></i><br>
+                    </p>
+                    <br>
+                    <button class="accordion">Comment</button>
+                    <div class="panel">
+                        <p class="comment"> <img
+                                src="file:///C:/Users/GOI/Documents/W3SCHOOL/W3Schools-2021-09-19/W3Schools-2021-09-19/howto/img_avatar2.png"
+                                alt="">Delight : <br> Wow !! feels good</p>
+                    </div>
+                </div>
+                <div class="runway">
+                    <h3>Title heading</h3>
+                    <p class="title">Title discription ,
+                        <b style="opacity: 0.7;">April 20th 2024 </b>
+                    </p>
+                    <img src="Runway.jpg" alt=""> <br>
+                    <p class="l-side-text"><b> Never miss</b> the shows of differents stylists Lorem ipsum dolor sit,
+                        amet
+                        consectetur
+                        adipisicing elit. Cum ex odio ratione atque.
+                        Lorem ipsum dolor sit amet consectetur adipisicing elit. Amet earum recusandae nesciunt, ip
+                        sum aspernatur iste aperiam quod minus deleniti totam nobis cupiditate, praesentium itaque atque
+                        vol
+                        uptas officiis. Eaque, mollitia ne
+                        cessitatibus.Amet nisi sapiente voluptas asperiores quia voluptatum nihil?
+                        Quaerat sed esse voluptatibus cum corporis quo, maiores cupiditate?</p> <br> <br>
+                    <button class="accordion">Comment</button>
+                    <div class="panel">
+                        <p class="comment"> <img
+                                src="file:///C:/Users/GOI/Documents/W3SCHOOL/W3Schools-2021-09-19/W3Schools-2021-09-19/howto/img_avatar2.png"
+                                alt="">Sandra : <br> Love this show !!</p>
+                    </div>
+                </div>
+            </div>
+
+            <div class="r-hand">
+                <div class="myself">
+                    <img src="Owner.jpg" alt="">
+                    <div class="bottom-left">
+                        <h3>My Name</h3>
+                        Just me, myself and I, exploring the universe of uknownment.
+                        I have a heart of love and a interest of lorem ipsum and mauris neque quam blog.
+                        I want to share my world with you.
+                    </div>
+                </div>
+                <div class="ad">
+                    <div class="ad-header">Advertise</div>
+                    <div class="ad-body"> ad <br> Loading... </div>
+                </div>
+                <div class="contact">
+                    <div class="contact-header"> Contact us</div>
+                    <form action="">
+                        <input type="text" required placeholder=" Name"> <br>
+                        <input type="text" required placeholder=" Phone number "> <br>
+                        <button>Submit</button>
+                    </form>
+                </div>
+                <div class="tag">
+                    <div class="tag-header ">Tags</div>
+                    <p>#Shirts</p>
+                    <p>#Skirts</p>
+                    <p>#Hats</p>
+                    <p>#Senators</p>
+                    <p>#blouse</p>
+                    <p>#Gown</p>
+                    <p>#Sweaters</p>
+                    <p>#Assoceries</p>
+                    <p>#clothins </p>
+                </div>
+                <div class="follow">
+                    <div class="fow-header">Follow me </div>
+                    <i class="fa fa-facebook"></i> <i class="fa fa-whatsapp"></i> <i class="fa fa-twitter"></i> <i
+                        class="fa fa-instagram"></i> <i class="fa fa-linkedin"></i>
+                </div>
+                <div class="sub">
+                    <div class="sub-header">Subcribe</div>
+                    <p>Enter your e-mail below and get notified on the latest blog posts.</p>
+                    <form action="">
+                        <input type="email" required placeholder=" Enter e-mail"><br>
+                        <button>Submit</button>
+                    </form>
+                </div>
+            </div>
+        </div>
+
+
+
+  
+    <div class="footer">
+        <img src="zani.png" alt="">
+        <p>Copyright ©2024 <br>Powered by zani</p>
+        <p>Are you a site adminstrator ? <a href="#">Sign in here </a></p>
+        <a href="#"><i class="fas fa-arrow-up"></i></a>
+    </div>
+    <script src="janeblog.js"></script>
+</div>
+
+  
+</body>
+
+</html>
